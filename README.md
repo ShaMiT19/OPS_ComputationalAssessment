@@ -29,14 +29,19 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
         • Inputs:
         - Path to the resized images folder
         - Path to the labels file
-        - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)  
-            • Note: I’ve already edited these path files according to this github repository. If you modify the folder structure, update the paths to the weight files in the code accordingly.
+        - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)
+        • Output:
+        - Precision - Out of all predicted 0/1, what percentage were actually 0/1
+        - Recall - Out of all actual 0/1, what percentage were correctly classified 0/1
+        - F1 score - Harmonic mean of precision and recall.
+        - Confusion matrix - Provides information about Correct predictions, False positives and False negatives
+
     2. Evaluation.py:  
         • Inputs:
         - Path to the resized images folder
         - Paths to both weight files  
             • Output: An evaluation.csv file containing image names and corresponding model predictions  
-            • Note: As with Test.py, update the weight file paths if you change the folder structure.
+        - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)
 5. I've also added the script for splitting the input dataset into training and test dataset. I takes in the path for input folder and the labels file, and splits the folder and csv into 2 parts each. With 80% on the data in training and 20% in test. Name of the file is TrainTestSplit.py
    
 # Approach of the project
