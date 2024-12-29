@@ -23,7 +23,7 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
 
 4. Model Evaluation - (NOTE for testing you don't need to run the Model.py file. I've provided the weights file in google drive. If you wish to see whether the Model.py is working or not, then please rename the weights file from Final_model.pth to something else so that it won't cause issues with the actual Final_model.pth)
 
-    Use the folder containing resized images for model evaluation. There are two main scripts for training and testing:
+    Use the folder containing resized images for model evaluation. There is one script for training that is Model.py and two scripts for testing that is Test.py and Evaluation.py:
     1. Model.py:  
         • Inputs:
         - Path to the resized training images folder
