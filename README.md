@@ -21,7 +21,7 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
 • The scripts (Model.py, Test.py, and Evaluation.py) were successfully run on Kaggle using GPU T4 x2.  
 • No dependency issues were encountered.
 
-1. Model Evaluation
+4. Model Evaluation
 
 Use the folder containing resized images for model evaluation. There are two main scripts for testing:
 
