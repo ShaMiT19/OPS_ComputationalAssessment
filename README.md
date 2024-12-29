@@ -16,13 +16,12 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
     - Path to the original test dataset folder
     - Desired path for the resized images  
         • The script will generate resized images in the specified folder.
-
-Environment
+3. Environment
 
 • The scripts (Model.py, Test.py, and Evaluation.py) were successfully run on Kaggle using GPU T4 x2.  
 • No dependency issues were encountered.
 
-Model Evaluation
+1. Model Evaluation
 
 Use the folder containing resized images for model evaluation. There are two main scripts for testing:
 
