@@ -112,23 +112,23 @@ To ensure I retained the best-performing model, I implemented a checkpointing sy
 
 # Results and Analysis
 
-The model achieved an impressive 95.23% accuracy on the test set. Here's a breakdown of the performance:
+The model achieved an impressive 95.75% accuracy on the test set. Here's a breakdown of the performance:
 
 - Non-sclerotic glomeruli (Class 0):
-  - Precision: 1.00
+  - Precision: 0.99
   - Recall: 0.95
   - F1-score: 0.97
 - Sclerotic glomeruli (Class 1):
-  - Precision: 0.80
-  - Recall: 0.98
-  - F1-score: 0.88
+  - Precision: 0.83
+  - Recall: 0.97
+  - F1-score: 0.89
 
 The confusion matrix revealed:
 
-- True Negatives: 890
-- False Positives: 51
-- False Negatives: 4
-- True Positives: 207
+- True Negatives: 898
+- False Positives: 43
+- False Negatives: 6
+- True Positives: 205
 
 ## Clinical Implications
 
