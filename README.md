@@ -21,7 +21,7 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
     • The scripts (Model.py, Test.py, and Evaluation.py) were successfully run on Kaggle using GPU T4 x2.  
     • No dependency issues were encountered.
 
-4. Model Evaluation - (NOTE for testing you don't need to run the Model.py file. I've provided the weights file in google drive. If you wish to test the Model.py, then please rename the weights file from Final_model.pth to something else so that it won't cause issues with the actual Final_model.pth)
+4. Model Evaluation - (NOTE for testing you don't need to run the Model.py file. I've provided the weights file in google drive. If you wish to see whether the Model.py is working or not, then please rename the weights file from Final_model.pth to something else so that it won't cause issues with the actual Final_model.pth)
 
     Use the folder containing resized images for model evaluation. There are two main scripts for testing:
     1. Model.py:  
