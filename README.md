@@ -37,7 +37,8 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
         - Paths to both weight files  
             • Output: An evaluation.csv file containing image names and corresponding model predictions  
             • Note: As with Test.py, update the weight file paths if you change the folder structure.
-
+5. I've also added the script for splitting the input dataset into training and test dataset. I takes in the path for input folder and the labels file, and splits the folder and csv into 2 parts each. With 80% on the data in training and 20% in test.
+   
 # Approach of the project
 
 Since I was not able to get the access for the dataset on 26<sup>th</sup>, due to login issues with my dropbox account. I had no idea about the dataset size. I had heard that usually the dataset for medical ML models is very small. So I decided to move ahead accordingly.
