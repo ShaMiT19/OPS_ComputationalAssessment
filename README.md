@@ -4,7 +4,8 @@
 
 Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?usp=sharing>
 
-# HOW TO RUN THE MODEL IN YOUR SYSTEM
+# HOW TO RUN THE MODEL IN YOUR SYSTEM 
+## Note: I have made every effort to streamline the procedure and minimize potential confusion. However, should you encounter any issues or difficulties while executing the code, please do not hesitate to reach out.
 
 1. Download the required weight files:  
     • inception_v3_google-0cc3c7bd.pth  
