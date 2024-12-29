@@ -64,7 +64,7 @@ I began by compressing the images to 299x299 dimensions, which was crucial for b
 
 ## Dataset Splitting
 
-To ensure a robust evaluation, I created a script named "TrainTestSplit.py" to divide the dataset into training and testing sets. I used an 80-20 split, resulting in 4,606 images for training and 1,152 for testing. Importantly, I implemented stratified splitting to maintain class balance across both sets.
+To ensure a robust evaluation, I created a script named "TrainTestSplit.py" to divide the dataset into training and testing sets. I used an 80-20 split, resulting in 4,606 images for training and 1,152 for testing. Importantly, I implemented stratified splitting to maintain class balance across both sets. I did a same split between the training and the validation set in the Model.py file. So the entire dataset is first divided into Training and test, in 80:20 split. And then the Training is further split in 80:20 split as training and validation. 
 
 ## Model Architecture
 
