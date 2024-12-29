@@ -168,13 +168,12 @@ Looking ahead, I've identified several areas for potential enhancement:
 In conclusion, this project has yielded a highly effective model for glomeruli classification, with promising implications for assisting in kidney pathology assessments
 
 # References
-
-- - - PyTorch: <https://pytorch.org/docs/1.8.0/>
-      - Torchvision: <https://pytorch.org/vision/>
-      - Pillow (PIL): <https://pillow.readthedocs.io/en/stable/>
-      - Pandas: <https://pandas.pydata.org/docs/>
-      - NumPy: <https://numpy.org/doc/>
-      - Scikit-learn: <https://scikit-learn.org>
+- PyTorch: <https://pytorch.org/docs/1.8.0/>
+- Torchvision: <https://pytorch.org/vision/>
+- Pillow (PIL): <https://pillow.readthedocs.io/en/stable/>
+- Pandas: <https://pandas.pydata.org/docs/>
+- NumPy: <https://numpy.org/doc/>
+- Scikit-learn: <https://scikit-learn.org>
 - tqdm: <https://tqdm.github.io>
 - Novel Transfer Learning Approach for Medical Imaging with Limited Labeled Data: <https://pmc.ncbi.nlm.nih.gov/articles/PMC8036379/>
 - Segmentation of Glomeruli Within Trichrome Images Using Deep Learning: <https://pmc.ncbi.nlm.nih.gov/articles/PMC6612039/>
