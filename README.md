@@ -30,11 +30,11 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
         - Path to the resized images folder
         - Path to the labels file
         - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)
-        • Output:
-        - Precision - Out of all predicted 0/1, what percentage were actually 0/1
-        - Recall - Out of all actual 0/1, what percentage were correctly classified 0/1
-        - F1 score - Harmonic mean of precision and recall.
-        - Confusion matrix - Provides information about Correct predictions, False positives and False negatives
+        - Output:
+            - Precision - Out of all predicted 0/1, what percentage were actually 0/1
+            - Recall - Out of all actual 0/1, what percentage were correctly classified 0/1
+            - F1 score - Harmonic mean of precision and recall.
+            - Confusion matrix - Provides information about Correct predictions, False positives and False negatives
 
     2. Evaluation.py:  
         • Inputs:
