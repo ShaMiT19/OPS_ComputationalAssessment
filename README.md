@@ -21,14 +21,20 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
     • The scripts (Model.py, Test.py, and Evaluation.py) were successfully run on Kaggle using GPU T4 x2.  
     • No dependency issues were encountered.
 
-4. Model Evaluation
+4. Model Evaluation - (NOTE for testing you don't need to run the Model.py file. I've provided the weights file in google drive. If you wish to test the Model.py, then please rename the weights file from Final_model.pth to something else so that it won't cause issues with the actual Final_model.pth)
 
     Use the folder containing resized images for model evaluation. There are two main scripts for testing:
-    
-    1. Test.py:  
+    1. Model.py:  
         • Inputs:
-        - Path to the resized images folder
-        - Path to the labels file
+        - Path to the resized training images folder
+        - Path to the training labels file
+        - Paths to weight file (inception_v3_google-0cc3c7bd.pth)
+        - Name the pth file which will save the new weights of the model. (Final_model.pth in my case)
+          
+    2. Test.py:  
+        • Inputs:
+        - Path to the resized test images folder
+        - Path to the test labels file
         - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)
         - Output:
             - Precision - Out of all predicted 0/1, what percentage were actually 0/1
@@ -36,13 +42,13 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
             - F1 score - Harmonic mean of precision and recall.
             - Confusion matrix - Provides information about Correct predictions, False positives and False negatives
 
-    2. Evaluation.py:  
+    3. Evaluation.py:  
         • Inputs:
-        - Path to the resized images folder
+        - Path to the resized test images folder
         - Paths to both weight files  
             • Output: An evaluation.csv file containing image names and corresponding model predictions  
         - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)
-5. I've also added the script for splitting the input dataset into training and test dataset. I takes in the path for input folder and the labels file, and splits the folder and csv into 2 parts each. With 80% on the data in training and 20% in test. Name of the file is TrainTestSplit.py
+6. I've also added the script for splitting the input dataset into training and test dataset. I takes in the path for input folder and the labels file, and splits the folder and csv into 2 parts each. With 80% on the data in training and 20% in test. Name of the file is TrainTestSplit.py
    
 # Approach of the project
 
