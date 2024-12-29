@@ -18,25 +18,25 @@ Link: <https://drive.google.com/drive/folders/1__KGR4xh4LRM-MexzNqTHc3s-267YUHO?
         • The script will generate resized images in the specified folder.
 3. Environment
 
-• The scripts (Model.py, Test.py, and Evaluation.py) were successfully run on Kaggle using GPU T4 x2.  
-• No dependency issues were encountered.
+    • The scripts (Model.py, Test.py, and Evaluation.py) were successfully run on Kaggle using GPU T4 x2.  
+    • No dependency issues were encountered.
 
 4. Model Evaluation
 
-Use the folder containing resized images for model evaluation. There are two main scripts for testing:
-
-1. Test.py:  
-    • Inputs:
-    - Path to the resized images folder
-    - Path to the labels file
-    - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)  
-        • Note: I’ve already edited these path files according to this github repository. If you modify the folder structure, update the paths to the weight files in the code accordingly.
-2. Evaluation.py:  
-    • Inputs:
-    - Path to the resized images folder
-    - Paths to both weight files  
-        • Output: An evaluation.csv file containing image names and corresponding model predictions  
-        • Note: As with Test.py, update the weight file paths if you change the folder structure.
+    Use the folder containing resized images for model evaluation. There are two main scripts for testing:
+    
+    1. Test.py:  
+        • Inputs:
+        - Path to the resized images folder
+        - Path to the labels file
+        - Paths to both weight files (inception_v3_google-0cc3c7bd.pth and Final_model.pth)  
+            • Note: I’ve already edited these path files according to this github repository. If you modify the folder structure, update the paths to the weight files in the code accordingly.
+    2. Evaluation.py:  
+        • Inputs:
+        - Path to the resized images folder
+        - Paths to both weight files  
+            • Output: An evaluation.csv file containing image names and corresponding model predictions  
+            • Note: As with Test.py, update the weight file paths if you change the folder structure.
 
 # Approach of the project
 
